@@ -6,14 +6,14 @@ plugins {
 
 android {
     namespace 'cc.samlab.bookshelf'
-    compileSdkPreview "Baklava"
+    compileSdk 36
 
     defaultConfig {
         applicationId "cc.samlab.bookshelf"
         minSdk 28
-        targetSdkPreview "Baklava"
-        versionCode 3
-        versionName "1.0.2"
+        targetSdk 36
+        versionCode 4
+        versionName "1.1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
